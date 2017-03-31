@@ -1,0 +1,60 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+.me{
+    padding:20px;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.chat-bot{
+   bottom: 0;
+    color: #fff;
+    border-radius:10px 10px 0px 0px;
+    padding-bottom: 20px;
+    height: 300px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.scroll-active{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.height-300{
+    height: 300px;
+}
+
+.bottom-0{
+    bottom:0;
+}
+
+.heading-chat {
+    background-color: #0b2f3d;
+    color: #fff;
+    padding: 5px;
+    border-radius:5px 5px 0px 0px;
+}
+
+.heading-chat a{
+    text-decoration: none;
+    color: #fff;
+}
